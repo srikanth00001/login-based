@@ -4,7 +4,7 @@ const MicrosoftLoginButton = () => {
   const clientId = '96823082-e8b7-4c2a-84e3-c4fefab5090d';
   const tenantId = 'd2408d49-35c3-4baf-a889-f417764eae80';
   const redirectUri = encodeURIComponent(
-    'https://2ed9-2405-201-e015-707b-75db-dd0d-957f-ff3d.ngrok-free.app/auth/microsoft/callback'
+    'https://c740-2405-201-e015-705d-900b-c1dc-e19d-7cb2.ngrok-free.app/auth/microsoft/callback'
   );
   const scope = encodeURIComponent('openid profile email offline_access User.Read');
 
