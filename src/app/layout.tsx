@@ -28,10 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script
-          src="https://accounts.google.com/gsi/client"
-          strategy="beforeInteractive"
-        />
+      <script src="https://accounts.google.com/gsi/client" async defer></script>
       </head>
       <body className={outfit.className}
       >
