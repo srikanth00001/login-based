@@ -10,14 +10,14 @@ const AppleLoginButton = () => {
     try {
       if (isApple) {
         const clientId = 'com.example.web';
-        const redirectUri = encodeURIComponent('https://2ed9-2405-201-e015-707b-75db-dd0d-957f-ff3d.ngrok-free.app/auth/apple/callback');
+        const redirectUri = encodeURIComponent('https://c740-2405-201-e015-705d-900b-c1dc-e19d-7cb2.ngrok-free.app/auth/apple/callback');
 
         const url = `https://appleid.apple.com/auth/authorize?response_type=code&response_mode=form_post&client_id=${clientId}&redirect_uri=${redirectUri}&scope=name%20email`;
 
         window.location.href = url;
       } else {
         // Simulated login for Android or non-Apple platforms
-        const res = await axios.post('https://2ed9-2405-201-e015-707b-75db-dd0d-957f-ff3d.ngrok-free.app/auth/apple', {
+        const res = await axios.post('https://c740-2405-201-e015-705d-900b-c1dc-e19d-7cb2.ngrok-free.app/auth/apple', {
           token: 'mocked-jwt-token',
           email: 'mockedemail@example.com',
           name: 'John Doe',
