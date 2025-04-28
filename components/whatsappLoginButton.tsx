@@ -12,7 +12,7 @@ const WhatsAppLogin = () => {
     }
 
     try {
-      const response = await fetch("https://2ed9-2405-201-e015-707b-75db-dd0d-957f-ff3d.ngrok-free.app/whatsapp/send-code", {
+      const response = await fetch("https://c740-2405-201-e015-705d-900b-c1dc-e19d-7cb2.ngrok-free.app/whatsapp/send-code", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -41,7 +41,7 @@ const WhatsAppLogin = () => {
     }
 
     try {
-      const response = await fetch("https://2ed9-2405-201-e015-707b-75db-dd0d-957f-ff3d.ngrok-free.app/whatsapp/verify-code", {
+      const response = await fetch("https://c740-2405-201-e015-705d-900b-c1dc-e19d-7cb2.ngrok-free.app/whatsapp/verify-code", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
